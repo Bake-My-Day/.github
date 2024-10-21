@@ -1,4 +1,4 @@
-# Bake My Day! - Fresh Bakes, Happy Days 
+# Bake My Day! - ## Fresh Bakes, Happy Days 
 
 ## Kelompok 5 
 Our team consists of 7 People:
