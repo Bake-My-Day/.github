@@ -1,45 +1,53 @@
 body {
     font-family: poppins;
+    margin: 0;
 }
-
-nav {
+.navbar-top {
+    display: flex;
+    flex-direction: row;
     height: 5rem;
     background-color: black;
 }
-
-.navbar-brand {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 21px;
-    background-color : #C1C1C1;
-    color: black;
-    height: 3.5rem;    
-    width: 10.5rem;
-    margin-left: 1.5rem;
+.logo {
+    width: 80px;
+    margin-left: 15px;
 }
-.navbar-nav {
+.navigation {
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
     border-radius: 21px;
-    background-color : #866B61;
+    background-color : #FFFFFF;
     height: 2.5rem;    
     width: 22.5rem;
     margin-left: 100px;
+    margin-top: 15px;
 }
-.nav-link {
-    color: white;
+.navigation > a {
+    color: black;
+}
+.navigation > a:hover {
+    transform: scale(1.1);
+}
+.home, .about, .product, .contactus {
+    margin: 10px;
 }
 .language {
     margin-left: 90px;
+    margin-top: 23.5px;
 }
-.eng, .idn{
+.eng {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 7px;
+}
+.idn {
     color: white;
     background-color: grey;
-    margin-left: 20px;
+    margin-left: 25px;
     border-radius: 12px;
     padding: 7px;
 }
@@ -47,15 +55,17 @@ nav {
     display: flex;
     flex-direction: row;
     margin-left: 120px;
+    margin-top: 15px;
 } 
-.wrapper > .signin {
+.wrapper > .signup {
     display: flex;
     justify-content: center;
     align-items: center;
     border: none;
     border-radius: 21px;
-    background-color : grey;
-    color: white;
+    background-color : #FFFFFF;
+    color: #161616;
+    font-weight: 700;
     height: 2.5rem;    
     width: 10rem;
 }
@@ -65,8 +75,9 @@ nav {
     align-items: center;
     border: none;
     border-radius: 21px;
-    background-color : grey;
-    color: white;
+    background-color : #CC7942;
+    color: #161616;
+    font-weight: 700;
     height: 2.5rem;    
     width: 10rem;
     margin-left: 10px;
@@ -74,17 +85,18 @@ nav {
 .content {
     display: flex;
     flex-direction: row;
-    background-color: #161616
+    background-color: #161616;
+    height: 32rem;
 }
 .description {
-    color: #FFFFFF;
+    color: #CC7942;
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 7rem;
-    margin-left: 2rem;
+    margin-top: 6rem;
+    margin-left: 2.5rem;
 }
 .description > p {
-    color: #FFFFFF;
+    color: #CC7942;
     margin-top: 20px;
     line-height: 1.6;
 }
@@ -94,11 +106,11 @@ nav {
     flex-direction: column;
     width: 20rem;
     border-radius: 12px;
-    height: 21rem;
+    height: 19rem;
     padding: 18px;
     margin-top: 7rem;
     margin-right: 10rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3.5rem;
 }
 .login > h2 {
     color: white;
@@ -109,15 +121,17 @@ nav {
     border: none;
     display: flex;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 20px;
     color: white;
     width: auto;
 }
-input[type="text"], input[type="email"], input[type="password"] {
+input[type="email"], input[type="password"] {
+    font-family: poppins;
     border: solid 1px white;
     border-radius: 7px;
     background-color: #0C0B0B;
-    height: 2.5rem;
+    color: #FFFFFF;
+    height: 1rem;
     padding: 15px;
 }
 input::placeholder {
@@ -127,7 +141,7 @@ input::placeholder {
     color: white;
     font-size: 13px;
     margin-top: 10px;
-    margin-left: 10.8rem;
+    margin-left: 13rem;
 }
 .button {
     display: flex;
@@ -138,6 +152,7 @@ input::placeholder {
 #submitSignIn {
     border: none;
     border-radius: 5px;
+    font-family: poppins;
     padding: 5px;
     width: 16rem;
     background-color: white;
@@ -147,7 +162,28 @@ input::placeholder {
 #submitSignIn:hover {
     transform: scale(1.1);
 }
+.signup:hover {
+    background-color: #CC7942;
+}
 footer {
-    height: 10rem;
-    background-color: #8D8D8D;
+    background-color: #CC7942;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+.nav-footer > a{
+    color: #161616;
+    margin: 1rem;
+}
+hr {
+    border: 1px solid black; 
+    width: 50rem;
+    margin-left: 15px;
+}
+.footer-bottom > a, span {
+    color: #161616;
+    font-weight: 900;
+    font-size: large;
+    margin: 1rem;
+    margin-right: 3.5rem;
 }
