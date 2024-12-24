@@ -6,7 +6,7 @@
     <meta name="author" content="Raditya Adam Nugraha">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Main Page</title>
-    <link rel="shortcut icon" href="/Main Page/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/Landing Page/WhatsApp_Image_2024-12-17_at_15.39.50.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
@@ -17,25 +17,25 @@
     <nav class="navbar-top">
         <img class="logo" src="Landing Page/WhatsApp_Image_2024-12-17_at_15.39.50.png">
           <nav class="navigation">
-            <a class="home" href="#">Home</a>
-            <a class="about" href="#">About</a>
-            <a class="product" href="#">Product</a>
-            <a class="contactus" href="#">Contact Us</a>
+            <a id="home" class="home" data-translate="home" href="#">Home</a>
+            <a id="about" class="about" data-translate="about" href="#">About</a>
+            <a id="product" class="product" data-translate="product" href="#">Product</a>
+            <a id="contactus" class="contactus" data-translate="contactus" href="#">Contact Us</a>
           </nav>
             <div class="language">
-              <a class="eng" href="#">EN</a>
-              <a class="idn" href="#">ID</a>
+              <a class="eng" id="eng-btn" href="#">EN</a>
+              <a class="idn" id="idn-btn" href="#">ID</a>
             </div>
           <div class="wrapper">
-            <a class="signup" href="#">SIGN UP</a>
-            <a class="login-top" href="#">LOG IN</a>
+            <a class="signup" id="register" href="#">SIGN UP</a>
+            <a class="login-top" id="login-top" href="#">LOG IN</a>
           </div>
     </nav>
     <div class="content">
         <div class="description">
-            <h1><b>Bake My Day! :</b></h1>
-            <h1><b>Gluten-Free cake shop</b></h1>
-            <p>We created  Gluted-Free cakes that provide a solution for people with gluten 
+            <h1 id="title" data-translate="title"><b>Bake My Day! :</b></h1>
+            <h1 id="description-1" data-translate="description-1"><b>Gluten-Free cake shop</b></h1>
+            <p id="description-2" data-translate="description-2">We created  Gluted-Free cakes that provide a solution for people with gluten 
             sensitivities, so they can easily find and purchase safe products for their needs.</p>
         </div>
         <form action="" method="post">
@@ -46,11 +46,11 @@
               <input type="email" placeholder="Email" id="email" name="email">
           </div>
           <div class="password">
-              <input type="password" placeholder="Password"id="password" name="password" required>
+              <input type="password" placeholder="Password" id="password" name="password" data-translate="password">
           </div>
-          <a class="forgot" href="#">Forgot Password</a>
+          <a class="forgot" id="forgot" data-translate="forgot" href="#">Forgot Password</a>
           <div class="button">
-              <button type="submit" id="submitSignIn" name="register">LOG IN</button>
+              <button type="submit" id="submitSignIn" name="login">LOG IN</button>
           </div>
           </div>
       </form>
@@ -58,23 +58,24 @@
     <footer>
         <img src="Landing Page/bake my day logo black.png" alt="Logo">
         <nav class="nav-footer">
-            <a href="#"><b>Home</b></a>
-            <a href="#"><b>About</b></a>
-            <a href="#"><b>Reviews</b></a>
-            <a href="#"><b>Advice</b></a>
-            <a href="#"><b>Contact</b></a>
-            <a href="#"><b>Location</b></a>
+            <a id="home-footer" data-translate="home-footer" href="#"><b>Home</b></a>
+            <a id="about-footer" data-translate="about-footer" href="#"><b>About</b></a>
+            <a id="reviews-footer" data-translate="reviews-footer" href="#"><b>Reviews</b></a>
+            <a id="advice-footer" data-translate="advice-footer" href="#"><b>Advice</b></a>
+            <a id="contact-footer" data-translate="contact-footer" href="#"><b>Contact</b></a>
+            <a id="location-footer" data-translate="location-footer" href="#"><b>Location</b></a>
             <i class="fa-brands fa-instagram fa-2xl" style="color:black; margin-left: 5rem;"></i>
             <i class="fa-brands fa-square-twitter fa-2xl" style="margin-left: 35px;"></i>
             <i class="fa-brands fa-facebook-f fa-2xl" style="margin-left: 35px;"></i>
             <hr>
             <div class="footer-bottom">
-                <a href="#">Terms & Condition</a>
-                <a href="#">Privacy Policy</a> 
+                <a id="terms&condition" data-translate="terms&condition" href="#">Terms & Condition</a>
+                <a id="privacy-policy" data-translate="privacy-policy" href="#">Privacy Policy</a> 
                 <span>@2024BakeMyDay</span>
             </div>
         </nav>    
     </footer>
+    <script src="/Landing Page/language.js"></script>
     <script src="/Landing Page/login.js"></script>
 </body>
 </html>
