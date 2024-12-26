@@ -1,0 +1,122 @@
+body {
+    font-family: poppins;
+    margin: 0;
+}
+.navbar-top {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    background-color: black;
+}
+.logo {
+    width: 80px;
+    margin-left: 15px;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 21px;
+    background-color : #FFFFFF;
+    height: 2.5rem;    
+    width: 22.5rem;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.navigation > a {
+    color: black;
+}
+.navigation > a:hover {
+    transform: scale(1.1);
+}
+.home, .about, .product, .contactus {
+    margin: 10px;
+}
+.language {
+    margin-left: 280px;
+    margin-top: 23.5px;
+}
+.eng {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 7px;
+}
+.idn {
+    color: #FFFFFF;
+    background-color: #161616;
+    margin-left: 30px;
+    border:  1px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 7px;
+}
+.idn:hover {
+    background-color: #FFFFFF;
+    color: #161616;
+}
+.wrapper-top {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.wrapper-top > i {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color: #161616;
+    height: 30rem;
+}
+.wrapper-1 {
+    border: none;
+    border-radius: 25px;
+    background-color: #CC7942;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    width: 50%;
+    height: 18.5rem;
+    padding: 3rem;
+}
+.order-now-1 {
+    margin-top: 25px;
+}
+#order-now-1 {
+    border: none;
+    border-radius: 5px;
+    font-family: poppins;
+    padding: 10px;
+    width: 19.5rem;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    color: #0C0B0B;
+}
+#order-now-1:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: #CC7942;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+.nav-footer > a{
+    color: #161616;
+    margin: 1rem;
+}
+hr {
+    border: 1px solid black; 
+    width: 50rem;
+    margin-left: 15px;
+}
+.footer-bottom > a, span {
+    color: #161616;
+    font-weight: 900;
+    font-size: large;
+    margin: 1rem;
+    margin-right: 3.5rem;
+}
