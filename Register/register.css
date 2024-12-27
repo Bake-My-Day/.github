@@ -101,8 +101,19 @@ body {
     color: #CC7942;
     max-width: 700px;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 9.5rem;
     margin-left: 2.5rem;
+}
+#title, #description-1 {
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.bakery-cakes {
+    height: 13rem;
+}
+.img-description {
+    display: flex;
+    flex-direction: row;
 }
 .description > p {
     color: #CC7942;
