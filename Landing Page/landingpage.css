@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: row;
     height: 5rem;
-    background-color: black;
+    background-color: #060606;
 }
 .logo {
     width: 80px;
@@ -18,7 +18,7 @@ body {
     align-items: center;
     border: none;
     border-radius: 21px;
-    background-color : #FFFFFF;
+    background-color : #D1D1D1;
     height: 2.5rem;    
     width: 22.5rem;
     margin-left: 100px;
@@ -124,7 +124,7 @@ body {
     line-height: 1.6;
 }
 .login {
-    background-color: #0C0B0B;
+    background-color: #060606;
     display: flex;
     flex-direction: column;
     width: 20rem;
@@ -152,7 +152,7 @@ input[type="email"], input[type="password"] {
     font-family: poppins;
     border: solid 1px white;
     border-radius: 7px;
-    background-color: #0C0B0B;
+    background-color: #060606;
     color: #FFFFFF;
     height: 1rem;
     padding: 15px;
@@ -183,7 +183,8 @@ input::placeholder {
     color: #0C0B0B;
 }
 #submitSignIn:hover {
-    background-color: #CC7942
+    background-color: #CC7942;
+    color: #FFFFFF;
 }
 .signup:hover {
     background-color: #CC7942;

@@ -5,8 +5,8 @@ body {
 .navbar-top {
     display: flex;
     flex-direction: row;
-    height: 5rem;
-    background-color: black;
+    height: 5.5rem;
+    background-color: #060606;
 }
 .logo {
     width: 80px;
@@ -18,36 +18,44 @@ body {
     align-items: center;
     border: none;
     border-radius: 21px;
-    background-color : #FFFFFF;
-    height: 2.5rem;    
-    width: 22.5rem;
-    margin-left: 100px;
+    background-color : #D1D1D1;
+    height: 3rem;    
+    width: 32rem;
+    margin-left: 90px;
     margin-top: 15px;
 }
 .navigation > a {
     color: black;
 }
-.navigation > a:hover {
+.about:hover, .product:hover, .contactus:hover {
     transform: scale(1.1);
 }
+.home {
+    border: none;
+    border-radius: 15px;
+    background-color: #CC7942;
+    padding: 3px;
+    width: 7.5rem;
+    text-align: center;
+}
 .home, .about, .product, .contactus {
-    margin: 10px;
+    margin: 20px;
 }
 .language {
-    margin-left: 280px;
+    margin-left: 250px;
     margin-top: 23.5px;
 }
 .eng {
     color: black;
     background-color: white;
-    margin-left: 20px;
+    margin-left: 23px;
     border-radius: 12px;
     padding: 7px;
 }
 .idn {
     color: #FFFFFF;
     background-color: #161616;
-    margin-left: 30px;
+    margin-left: 25px;
     border:  1px solid #FFFFFF;
     border-radius: 12px;
     padding: 7px;
@@ -59,33 +67,41 @@ body {
 .wrapper-top {
     display: flex;
     flex-direction: row;
-    margin-left: 150px;
+    margin-left: 130px;
     margin-top: 15px;
 }
 .wrapper-top > i {
     margin-top: 20px;
     margin-left: 15px;
 }
+#user-logo {
+    margin-right: 3rem;
+}
 .content {
     display: flex;
     flex-direction: row;
     background-color: #161616;
-    height: 30rem;
+    height: 42rem;
 }
 .wrapper-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border: none;
     border-radius: 25px;
-    background-color: #CC7942;
+    background-image: url('/home/BAKE 1.png');
+    background-size: cover;
+    color: #FFFFFF;
     margin-top: 2.5rem;
     margin-left: 2.5rem;
     width: 50%;
-    height: 18.5rem;
+    height: 29.5rem;
     padding: 3rem;
 }
-.order-now-1 {
+.orderNow1 {
     margin-top: 25px;
 }
-#order-now-1 {
+#orderNow1, #orderNow2, #contactus2 {
     border: none;
     border-radius: 5px;
     font-family: poppins;
@@ -95,8 +111,29 @@ body {
     border-radius: 15px;
     color: #0C0B0B;
 }
-#order-now-1:hover {
-    transform: scale(1.1);
+.wrapper-2 {
+    display: flex;
+    flex-direction: column;
+}
+.work-hour {
+    border: none;
+    background-color: #CC7942;
+    border-radius: 25px;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    width: 25rem;
+    height: 13rem;
+    padding: 2rem;
+}
+.specific-amount {
+    border: none;
+    background-color: #CC7942;
+    border-radius: 25px;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    width: 25rem;
+    height: 13rem;
+    padding: 2rem;
 }
 footer {
     background-color: #CC7942;
