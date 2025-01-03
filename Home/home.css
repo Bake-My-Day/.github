@@ -26,6 +26,7 @@ body {
 }
 .navigation > a {
     color: black;
+    text-decoration: none;
 }
 .about:hover, .product:hover, .contactus:hover {
     transform: scale(1.1);
@@ -70,12 +71,12 @@ body {
     margin-left: 130px;
     margin-top: 15px;
 }
-.wrapper-top > i {
-    margin-top: 20px;
+.wrapper-top > a {
+    margin-top: 10px;
     margin-left: 15px;
 }
-#user-logo {
-    margin-right: 3rem;
+#shopping-logo:hover, #user-logo:hover {
+    transform: scale(1.1);
 }
 .content {
     display: flex;
@@ -89,7 +90,7 @@ body {
     flex-direction: column;
     border: none;
     border-radius: 25px;
-    background-image: url('/home/BAKE 1.png');
+    background-image: url('/Home/BAKE 1.png');
     background-size: cover;
     color: #FFFFFF;
     margin-top: 2.5rem;
@@ -118,7 +119,10 @@ body {
 .work-hour {
     border: none;
     background-color: #CC7942;
+    background-image: url('/Home/Footer Wireframe.png');
+    background-size: cover;
     border-radius: 25px;
+    color: #FFFFFF;
     margin-top: 2.5rem;
     margin-left: 2.5rem;
     width: 25rem;
@@ -129,6 +133,9 @@ body {
     border: none;
     background-color: #CC7942;
     border-radius: 25px;
+    background-image: url('/Home/Footer Wireframe (1).png');
+    background-size: cover;
+    color: #FFFFFF;
     margin-top: 1.5rem;
     margin-left: 2.5rem;
     width: 25rem;
@@ -141,7 +148,7 @@ footer {
     display: flex;
     align-items: center;
 }
-.nav-footer > a{
+.nav-footer > a {
     color: #161616;
     margin: 1rem;
 }
