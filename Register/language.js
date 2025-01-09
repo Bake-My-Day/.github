@@ -14,14 +14,14 @@ const translations = {
         address: "Address",
         passwordPlaceholder: "Password",
         submitSignUp: "Register",
-        terms: "Terms & Condition",
-        privacy: "Privacy Policy",
         footerHome: "Home",
         footerAbout: "About",
         footerReviews: "Reviews",
         footerAdvice: "Advice",
         footerContact: "Contact",
         footerLocation: "Location",
+        terms: "Terms & Condition",
+        privacy: "Privacy Policy",
     },
     id: {
         title: "Bake My Day!",
@@ -37,14 +37,14 @@ const translations = {
         address: "Alamat",
         passwordPlaceholder: "Kata Sandi",
         submitSignUp:"Registrasi",
-        terms: "Syarat & Ketentuan",
-        privacy: "Kebijakan Privasi",
         footerHome: "Beranda",
         footerAbout: "Tentang",
         footerReviews: "Ulasan",
         footerAdvice: "Saran",
         footerContact: "Kontak",
         footerLocation: "Lokasi",
+        terms: "Syarat & Ketentuan",
+        privacy: "Kebijakan Privasi",
     }
 };
 
@@ -63,14 +63,14 @@ function changeLanguage(lang) {
     document.getElementById("address").placeholder = translations[lang].address;
     document.getElementById("password").placeholder = translations[lang].passwordPlaceholder;
     document.getElementById("submitSignUp").innerText = translations[lang].submitSignUp;
-    document.getElementById("terms&condition").innerText = translations[lang].terms;
-    document.getElementById("privacy-policy").innerText = translations[lang].privacy;
     document.getElementById("home-footer").innerText = translations[lang].footerHome;
     document.getElementById("about-footer").innerText = translations[lang].footerAbout;
     document.getElementById("reviews-footer").innerText = translations[lang].footerReviews;
     document.getElementById("advice-footer").innerText = translations[lang].footerAdvice;
     document.getElementById("contact-footer").innerText = translations[lang].footerContact;
     document.getElementById("location-footer").innerText = translations[lang].footerLocation;
+    document.getElementById("terms&condition").innerText = translations[lang].terms;
+    document.getElementById("privacy-policy").innerText = translations[lang].privacy;
 }
 
 // Event listener for language button

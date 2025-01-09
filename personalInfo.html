@@ -6,7 +6,7 @@
     <meta name="author" content="Raditya Adam Nugraha">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Personal Info</title>
-    <link rel="shortcut icon" href="/Register/WhatsApp_Image_2024-12-17_at_15.39.50.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/Personal Info/WhatsApp_Image_2024-12-17_at_15.39.50.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
@@ -16,42 +16,79 @@
 <body>
     <nav class="navbar-top">
         <img class="logo" src="Landing Page/WhatsApp_Image_2024-12-17_at_15.39.50.png">
-          <nav class="navigation">
+        <nav class="navigation">
             <a id="home" class="home" data-translate="home" href="home.html">Home</a>
             <a id="about" class="about" data-translate="about" href="#">About</a>
             <a id="product" class="product" data-translate="product" href="#">Product</a>
             <a id="contactus" class="contactus" data-translate="contactus" href="#">Contact Us</a>
-          </nav>
-          <div class="language">
+        </nav>
+        <div class="language">
             <a class="eng" id="eng-btn" href="#">EN</a>
             <a class="idn" id="idn-btn" href="#">ID</a>
-          </div>
-          <i class="fa-solid fa-user fa-2xl" id="user-logo"style="color: #CC7942;"></i>
+        </div>
+        <i class="fa-solid fa-user fa-2xl" id="user-logo"style="color: #CC7942;"></i>
     </nav>
     <div class="content">
     <div class="sidebar">
         <div class="title-wrapper">
-            <h2>NAME</h2>
-            <h4 class="user-id">USER ID</h4>
+            <h2 id="nameforTitle" data-translate="nameforTitle">NAME</h2>
+            <h4 id="userID" data-translate="userID">USER ID</h4>
         </div>
         <div class="sidebar-link">
             <div id="personalInformation">
-                <a href="#" class="personalInformation">Personal Information</a>
+                <a href="#" class="personalInformation" id="personal_information" data-translate="personal_information">Personal Information</a>
             </div>
             <div id="myOrder">
-                <a href="#" class="myOrder">My Order</a>
+                <a href="#" class="myOrder" id="my_order" data-translate="my_order">My Order</a>
             </div>
             <div id="addresses">
-                <a href="#" class="addresses">Addresses</a>
+                <a href="#" class="addresses" id="address" data-translate="address">Addresses</a>
             </div>
             <div id="needHelp">
-                <a href="#" class="needHelp">Need Help</a>
+                <a href="#" class="needHelp" id="need_help" data-translate="need_help">Need Help</a>
             </div>
             <div id="signOut">
-                <a href="#" class="signOut">Sign Out</a>
+                <a href="#" class="signOut" id="signout" data-translate="signout">Sign Out</a>
             </div>
         </div>
         </div>
+        <div class="formGroup">
+        <div class="personalInformationPic">
+            <img src="/Personal Info/Shield.png">
+            <h1 id="personalInformationHeading" data-translate="personalInformationHeading">Personal Information</h1>
+        </div>
+        <div class="form">
+            <form class="name">
+                <div class="firstNameForm">
+                    <label for="firstName" class="firstNameLabel" id="firstNameLabel" data-translate="firstNameLabel">First Name:</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="lastNameForm">
+                    <label for="lastName" class="lastNameLabel" id="lastNameLabel" data-translate="lastNameLabel">Last Name:</label>
+                    <input type="text" class="lastName" name="lastName">
+                </div>
+            </form>
+            <form class="emailForm">
+                <label for="email" class="emailLabel">Email:</label>
+                <input type="email" class="email" name="label">
+            </form>
+            <form class="phoneNumberandDate">
+                <div class="phoneNumberForm">
+                    <label for="phoneNumber" class="phoneNumberLabel" id="phoneNumberLabel" data-translate="phoneNumberLabel">Phone Number:</label>
+                    <input type="text" class="phoneNumber">
+                </div>
+                <div class="dateForm">
+                    <input type="date" class="date">
+                </div>
+            </form>
+            <p id="instruction" data-translate="instruction">In order to access some features of our services, you will have to fill out your account detail.
+                You may using it for buying or shipping the product to your address.</p>
+            <div class="button">
+                <button type="submit" class="save" id="save" data-translate="save"><b>SAVE</b></button>
+                <button type="reset" class="cancel" id="cancel" data-translate="cancel"><b>CANCEL</b></button>
+            </div>
+        </div>
+    </div>
     </div>
     <footer>
         <img src="Landing Page/bake my day logo black.png" alt="Logo">
@@ -73,5 +110,6 @@
             </div>
         </nav>    
     </footer>
+<script src="/Personal Info/language.js"></script>
 </body>
 </html>
