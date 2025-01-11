@@ -44,6 +44,7 @@ body {
     margin-left: 20px;
     border-radius: 12px;
     padding: 7px;
+    text-decoration: none;
 }
 .idn {
     color: #FFFFFF;
@@ -52,12 +53,9 @@ body {
     border:  1px solid #FFFFFF;
     border-radius: 12px;
     padding: 7px;
+    text-decoration: none;
 }
 .idn:hover {
-    background-color: #FFFFFF;
-    color: #161616;
-}
-.idn.active {
     background-color: #FFFFFF;
     color: #161616;
 }
@@ -78,6 +76,7 @@ body {
     font-weight: 700;
     height: 2.5rem;    
     width: 10rem;
+    text-decoration: none;
 }
 .wrapper > .login-top {
     display: flex;
@@ -91,6 +90,7 @@ body {
     height: 2.5rem;    
     width: 10rem;
     margin-left: 10px;
+    text-decoration: none;
 }
 .wrapper > .signup:hover {
     background-color: #CC7942;
@@ -99,7 +99,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #161616;
-    height: 35rem;
+    height: 38rem;
 }
 .description {
     color: #CC7942;
@@ -132,7 +132,7 @@ body {
     border-radius: 12px;
     height: 19rem;
     padding: 18px;
-    margin-top: 9.5rem;
+    margin-top: 8.5rem;
     margin-right: 8.5rem;
     margin-bottom: 3.5rem;
 }
@@ -190,6 +190,16 @@ input::placeholder {
 .signup:hover {
     background-color: #CC7942;
 }
+.messageDiv {
+    background-color: #CC7942;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    opacity: 0;
+    animation: fadeOut 3s forwards;
+}
 footer {
     background-color: #CC7942;
     height: 12rem;
@@ -199,6 +209,10 @@ footer {
 .nav-footer > a{
     color: #161616;
     margin: 1rem;
+    text-decoration: none;
+}
+.nav-footer > a:hover {
+    font-weight: 700;
 }
 hr {
     border: 1px solid black; 

@@ -44,6 +44,7 @@ body {
     margin-left: 20px;
     border-radius: 12px;
     padding: 7px;
+    text-decoration: none;
 }
 .idn {
     color: #FFFFFF;
@@ -52,6 +53,7 @@ body {
     border:  1px solid #FFFFFF;
     border-radius: 12px;
     padding: 7px;
+    text-decoration: none;
 }
 .idn:hover {
     background-color: #FFFFFF;
@@ -75,6 +77,7 @@ body {
     height: 2.5rem;    
     width: 10rem;
     margin-left: 10px;
+    text-decoration: none;
 }
 .wrapper > .signup {
     display: flex;
@@ -88,6 +91,7 @@ body {
     height: 2.5rem;    
     width: 10rem;
     margin-left: 10px;
+    text-decoration: none;
 }
 .wrapper > .login-top:hover {
     background-color: #CC7942;
@@ -96,7 +100,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #161616;
-    height: 38rem;
+    height: 42rem;
 }
 .description {
     color: #CC7942;
@@ -166,7 +170,7 @@ input::placeholder {
     justify-content: center;
     margin-top: 17px;
 }
-#submitSignUp {
+#register {
     border: none;
     border-radius: 5px;
     font-family: poppins;
@@ -176,12 +180,22 @@ input::placeholder {
     border-radius: 22px;
     color: #0C0B0B;
 }
-#submitSignUp:hover {
+#register:hover {
     background-color: #CC7942;
     color: #FFFFFF;
 }
 .signup:hover {
     background-color: #CC7942;
+}
+.messageDiv {
+    background-color: #CC7942;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    opacity: 0;
+    animation: fadeOut 3s forwards;
 }
 footer {
     background-color: #CC7942;
@@ -192,6 +206,10 @@ footer {
 .nav-footer > a{
     color: #161616;
     margin: 1rem;
+    text-decoration: none;
+}
+.nav-footer > a:hover {
+    font-weight: 700;
 }
 hr {
     border: 1px solid black; 

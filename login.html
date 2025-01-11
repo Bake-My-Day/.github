@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Raditya Adam Nugraha">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Main Page</title>
-    <link rel="shortcut icon" href="/Landing Page/WhatsApp_Image_2024-12-17_at_15.39.50.png" type="image/x-icon">
+    <title>LOG IN</title>
+    <link rel="shortcut icon" href="/Login/WhatsApp_Image_2024-12-17_at_15.39.50.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Landing Page/landingpage.css">
+    <link rel="stylesheet" href="Login/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <nav class="navbar-top">
-        <img class="logo" src="Landing Page/WhatsApp_Image_2024-12-17_at_15.39.50.png">
+        <img class="logo" src="/Login/WhatsApp_Image_2024-12-17_at_15.39.50.png">
           <nav class="navigation">
             <a id="home" class="home" data-translate="home" href="home.html">Home</a>
             <a id="about" class="about" data-translate="about" href="#">About</a>
@@ -28,7 +28,7 @@
             </div>
           <div class="wrapper">
             <a class="signup" id="register" href="register.html">SIGN UP</a>
-            <a class="login-top" id="login-top" href="landingpage.html">LOG IN</a>
+            <a class="login-top" id="login-top" href="login.html">LOG IN</a>
           </div>
     </nav>
     <div class="content">
@@ -36,7 +36,7 @@
             <h1 id="title" data-translate="title"><b>Bake My Day!</b></h1>
             <h1 id="description-1" data-translate="description-1"><b>Gluten-Free cake shop</b></h1>
             <div class="img-description">
-                <img src="/Landing Page/Bakery cakes 1.png" class="bakery-cakes">
+                <img src="/Login/Bakery cakes 1.png" class="bakery-cakes">
                 <p id="description-2" data-translate="description-2">We created  Gluted-Free cakes that provide a solution for people with gluten 
             sensitivities, so they can easily find and purchase safe products for their needs.</p>
             </div>
@@ -44,7 +44,7 @@
         <form action="" method="post">
             <div id="signInMessage" class="messageDiv" style="display: none;"></div>
             <div class="login" id="signIn">
-          <h2>Log In</h2>
+          <h2 id="formTitle">Log In</h2>
           <div class="email">
               <input type="email" placeholder="Email" id="email" name="email">
           </div>
@@ -59,7 +59,7 @@
       </form>
     </div>
     <footer>
-        <img src="Landing Page/bake my day logo black.png" alt="Logo">
+        <img src="/Login/bake my day logo black.png" alt="Logo">
         <nav class="nav-footer">
             <a id="home-footer" data-translate="home-footer" href="#"><b>Home</b></a>
             <a id="about-footer" data-translate="about-footer" href="#"><b>About</b></a>
@@ -78,7 +78,10 @@
             </div>
         </nav>    
     </footer>
-    <script src="/Landing Page/language.js"></script>
-    <script src="/Landing Page/login.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js"></script>
+    <script type="module" src="/Login/login.js"></script>
+    <script src="/Login/language.js"></script>
 </body>
 </html>

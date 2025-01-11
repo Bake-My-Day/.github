@@ -52,6 +52,7 @@ body {
     margin-left: 23px;
     border-radius: 12px;
     padding: 7px;
+    text-decoration: none;
 }
 .idn {
     color: #FFFFFF;
@@ -60,6 +61,7 @@ body {
     border:  1px solid #FFFFFF;
     border-radius: 12px;
     padding: 7px;
+    text-decoration: none;
 }
 .idn:hover {
     background-color: #FFFFFF;
@@ -151,6 +153,10 @@ footer {
 .nav-footer > a {
     color: #161616;
     margin: 1rem;
+    text-decoration: none;
+}
+.nav-footer > a:hover {
+  font-weight: 700;
 }
 hr {
     border: 1px solid black; 

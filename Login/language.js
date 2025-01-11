@@ -8,10 +8,12 @@ const translations = {
         about: "About",
         product: "Product",
         contactus: "Contact Us",
+        signup: "SIGN UP",
+        loginTop: "LOG IN",
+        formTitle: "Log In",
         passwordPlaceholder: "Password",
         forgot: "Forgot Password",
-        login: "LOG IN",
-        signup: "SIGN UP",
+        submitSignIn: "LOG IN",
         terms: "Terms & Condition",
         privacy: "Privacy Policy",
         footerHome: "Home",
@@ -29,10 +31,12 @@ const translations = {
         about: "Tentang",
         product: "Produk",
         contactus: "Hubungi Kami",
-        passwordPlaceholder: "Kata Sandi",
-        forgot: "Lupa Kata Sandi",
-        login: "MASUK",
+        loginTop: "MASUK",
         signup: "DAFTAR",
+        formTitle: "Masuk",
+        passwordPlaceholder: "Kata Sandi",
+        submitSignIn: "MASUK",
+        forgot: "Lupa Kata Sandi",
         terms: "Syarat & Ketentuan",
         privacy: "Kebijakan Privasi",
         footerHome: "Beranda",
@@ -53,10 +57,12 @@ function changeLanguage(lang) {
     document.getElementById("about").innerText = translations[lang].about;
     document.getElementById("product").innerText = translations[lang].product;
     document.getElementById("contactus").innerText = translations[lang].contactus;
+    document.getElementById("register").innerText = translations[lang].signup;
+    document.getElementById("login-top").innerText = translations[lang].loginTop;
+    document.getElementById("formTitle").innerText = translations[lang].formTitle;
     document.getElementById("password").placeholder = translations[lang].passwordPlaceholder;
     document.getElementById("forgot").innerText = translations[lang].forgot;
-    document.getElementById("submitSignIn").innerText = translations[lang].login;
-    document.getElementById("register").innerText = translations[lang].signup;
+    document.getElementById("submitSignIn").innerText = translations[lang].submitSignIn;
     document.getElementById("terms&condition").innerText = translations[lang].terms;
     document.getElementById("privacy-policy").innerText = translations[lang].privacy;
     document.getElementById("home-footer").innerText = translations[lang].footerHome;

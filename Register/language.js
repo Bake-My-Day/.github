@@ -8,18 +8,19 @@ const translations = {
         about: "About",
         product: "Product",
         contactus: "Contact Us",
-        register: "Register",
+        signup: "SIGN UP",
+        loginTop: "LOG IN",
         registerForm: "Register",
         fullName: "Full Name",
         address: "Address",
         passwordPlaceholder: "Password",
-        submitSignUp: "Register",
-        footerHome: "Home",
-        footerAbout: "About",
-        footerReviews: "Reviews",
-        footerAdvice: "Advice",
-        footerContact: "Contact",
-        footerLocation: "Location",
+        register: "Register",
+        homeFooter: "Home",
+        aboutFooter: "About",
+        reviewsFooter: "Reviews",
+        adviceFooter: "Advice",
+        contactFooter: "Contact",
+        locationFooter: "Location",
         terms: "Terms & Condition",
         privacy: "Privacy Policy",
     },
@@ -31,18 +32,19 @@ const translations = {
         about: "Tentang",
         product: "Produk",
         contactus: "Hubungi Kami",
-        register: "Registrasi",
+        signup: "DAFTAR",
+        loginTop: "MASUK",
         registerForm: "Registrasi",
         fullName: "Nama Lengkap",
         address: "Alamat",
         passwordPlaceholder: "Kata Sandi",
-        submitSignUp:"Registrasi",
-        footerHome: "Beranda",
-        footerAbout: "Tentang",
-        footerReviews: "Ulasan",
-        footerAdvice: "Saran",
-        footerContact: "Kontak",
-        footerLocation: "Lokasi",
+        register:"Registrasi",
+        homeFooter: "Beranda",
+        aboutFooter: "Tentang",
+        reviewsFooter: "Ulasan",
+        adviceFooter: "Saran",
+        contactFooter: "Kontak",
+        locationFooter: "Lokasi",
         terms: "Syarat & Ketentuan",
         privacy: "Kebijakan Privasi",
     }
@@ -57,18 +59,19 @@ function changeLanguage(lang) {
     document.getElementById("about").innerText = translations[lang].about;
     document.getElementById("product").innerText = translations[lang].product;
     document.getElementById("contactus").innerText = translations[lang].contactus;
-    document.getElementById("register").innerText = translations[lang].register;
+    document.getElementById("signup").innerText = translations[lang].signup;
+    document.getElementById("login-top").innerText = translations[lang].loginTop;
     document.getElementById("registerForm").innerText = translations[lang].registerForm;
     document.getElementById("fullName").placeholder = translations[lang].fullName;
     document.getElementById("address").placeholder = translations[lang].address;
     document.getElementById("password").placeholder = translations[lang].passwordPlaceholder;
-    document.getElementById("submitSignUp").innerText = translations[lang].submitSignUp;
-    document.getElementById("home-footer").innerText = translations[lang].footerHome;
-    document.getElementById("about-footer").innerText = translations[lang].footerAbout;
-    document.getElementById("reviews-footer").innerText = translations[lang].footerReviews;
-    document.getElementById("advice-footer").innerText = translations[lang].footerAdvice;
-    document.getElementById("contact-footer").innerText = translations[lang].footerContact;
-    document.getElementById("location-footer").innerText = translations[lang].footerLocation;
+    document.getElementById("register").innerText = translations[lang].register;
+    document.getElementById("home-footer").innerText = translations[lang].homeFooter;
+    document.getElementById("about-footer").innerText = translations[lang].aboutFooter;
+    document.getElementById("reviews-footer").innerText = translations[lang].reviewsFooter;
+    document.getElementById("advice-footer").innerText = translations[lang].adviceFooter;
+    document.getElementById("contact-footer").innerText = translations[lang].contactFooter;
+    document.getElementById("location-footer").innerText = translations[lang].locationFooter;
     document.getElementById("terms&condition").innerText = translations[lang].terms;
     document.getElementById("privacy-policy").innerText = translations[lang].privacy;
 }
