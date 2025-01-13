@@ -71,6 +71,7 @@ function changeLanguage(lang) {
   document.getElementById("address").innerText = translations[lang].address;
   document.getElementById("need_help").innerText = translations[lang].need_help;
   document.getElementById("signout").innerText = translations[lang].signout;
+  document.getElementById("personalInformationHeading").innerText = translations[lang].personalInformationHeading;
   document.getElementById("firstNameLabel").innerText = translations[lang].firstNameLabel;
   document.getElementById("lastNameLabel").innerText = translations[lang].lastNameLabel;
   document.getElementById("phoneNumberLabel").innerText = translations[lang].phoneNumberLabel;

@@ -1,0 +1,134 @@
+body {
+    font-family: poppins;
+    margin: 0;
+}
+.navbar-top {
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    background-color: #060606;
+}
+.logo {
+    width: 80px;
+    margin-left: 15px;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 21px;
+    background-color : #D1D1D1;
+    height: 2.5rem;    
+    width: 25.5rem;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.navigation > a {
+    color: black;
+    text-decoration: none;
+}
+.navigation > a:hover {
+    transform: scale(1.1);
+}
+.home, .about, .product, .contactus {
+    margin: 10px;
+}
+.language {
+    margin-left: 90px;
+    margin-top: 23.5px;
+}
+.eng {
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 12px;
+    padding: 7px;
+    text-decoration: none;
+}
+.idn {
+    color: #FFFFFF;
+    background-color: #161616;
+    margin-left: 30px;
+    border:  1px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 7px;
+    text-decoration: none;
+}
+.idn:hover {
+    background-color: #FFFFFF;
+    color: #161616;
+}
+.navbar-top > i {
+    margin-top: 35px;
+    margin-left: 105px;
+}
+#searchBox {
+    border: none;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-top: 22px;
+    height: 2rem;
+}
+input[type="search"] {
+    font-family: poppins;
+}
+input::placeholder {
+    font-family: poppins;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #161616;
+    height: 60rem;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-link > i {
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.user-link > i:hover {
+    transform: scale(1.1);
+}
+h1, p {
+    color: #FFFFFF;
+    text-align: center;
+}
+.wrapper > p {
+    
+}
+.productImg {
+    width: 12rem;
+    height: 11rem;
+}
+footer {
+    background-color: #CC7942;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+}
+.nav-footer > a{
+    color: #161616;
+    margin: 1rem;
+    text-decoration: none;
+}
+.nav-footer > a:hover {
+    font-weight: 700;
+}
+hr {
+    border: 1px solid black; 
+    width: 50rem;
+    margin-left: 15px;
+}
+.footer-bottom > a, span {
+    color: #161616;
+    font-weight: 900;
+    font-size: large;
+    margin: 1rem;
+    margin-right: 3.5rem;
+}

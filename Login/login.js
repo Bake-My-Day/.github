@@ -36,12 +36,12 @@ signInButton.addEventListener('click', async (event) => {
 
     try {
         const userCredential = await signInWithEmailAndPassword(auth, email, password);
-        showMessage('Login is successful', 'signInMessage');
+        showMessage('Login is successful!', 'signInMessage');
         window.location.href = 'home.html';
     } catch (error) {
         const errorCode = error.code;
         if (errorCode === 'auth/invalid-credential' || errorCode === 'auth/user-not-found' || errorCode === 'auth/wrong-password') {
-            showMessage('Incorrect Email or Password', 'signInMessage');
+            showMessage('Incorrect Email or Password!', 'signInMessage');
         } else {
             showMessage('Error occurred: ' + error.message, 'signInMessage');
         }
