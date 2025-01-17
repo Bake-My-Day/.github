@@ -81,12 +81,39 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     background-color: #161616;
-    height: 60rem;
+    height: 73rem;
 }
 .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.firstRow, .secondRow, .thirdRow {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8, .product9, .product10, .product11, .product12, .product13, .product14, .product15 {
+    margin-right: 1.5rem;
+}
+.productImg {
+    border: none;
+    border-radius: 12px;
+}
+.product1Info, .product2Info, .product3Info, .product4Info, .product5Info, .product6Info, .product7Info, .product8Info, .product9Info, .product10Info, .product11Info, .product12Info {
+    display: flex;
+    flex-direction: row;
+    width: 12rem;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 12px;
+}
+.nameAndPrice > span, .ratingAndOrder > span {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 500;
 }
 .user-link > i {
     margin-top: 35px;
@@ -99,9 +126,7 @@ h1, p {
     color: #FFFFFF;
     text-align: center;
 }
-.wrapper > p {
-    
-}
+
 .productImg {
     width: 12rem;
     height: 11rem;
