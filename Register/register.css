@@ -131,7 +131,7 @@ body {
     flex-direction: column;
     width: 20rem;
     border-radius: 12px;
-    height: 29.5rem;
+    height: 31.5rem;
     padding: 18px;
     margin-top: 4rem;
     margin-right: 7.5rem;
@@ -164,11 +164,17 @@ input[type="text"], input[type="email"], input[type="text"], input[type="passwor
 input::placeholder {
     color: white;
 }
+.showPassword {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    font-size: 13px;
+}
 .button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 17px;
+    margin-top: 30px;
 }
 #register {
     border: none;

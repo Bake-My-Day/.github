@@ -14,6 +14,7 @@ const translations = {
         fullName: "Full Name",
         address: "Address",
         passwordPlaceholder: "Password",
+        showPassword: "Show Password",
         register: "Register",
         homeFooter: "Home",
         aboutFooter: "About",
@@ -38,6 +39,7 @@ const translations = {
         fullName: "Nama Lengkap",
         address: "Alamat",
         passwordPlaceholder: "Kata Sandi",
+        showPassword: "Tampilkan Kata Sandi",
         register:"Registrasi",
         homeFooter: "Beranda",
         aboutFooter: "Tentang",
@@ -65,6 +67,7 @@ function changeLanguage(lang) {
     document.getElementById("fullName").placeholder = translations[lang].fullName;
     document.getElementById("address").placeholder = translations[lang].address;
     document.getElementById("password").placeholder = translations[lang].passwordPlaceholder;
+    document.getElementById("showPassword").innerText = translations[lang].showPassword;
     document.getElementById("register").innerText = translations[lang].register;
     document.getElementById("home-footer").innerText = translations[lang].homeFooter;
     document.getElementById("about-footer").innerText = translations[lang].aboutFooter;
