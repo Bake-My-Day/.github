@@ -96,7 +96,7 @@ input::placeholder {
     display: flex;
     flex-direction: column;
     background-color: #161616;
-    height: 80rem;
+    height: 82rem;
 }
 .wrapper {
     display: flex;
