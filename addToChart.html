@@ -36,7 +36,88 @@
         </div>
     </nav>
     <div class="content">
-        
+        <div class="wrapper">
+            <div class="productDisplayProduct">
+                <p>Product ><span>Display Product</span></p>
+            </div>
+        <div class="displayProduct">
+            <div class="productInfo">
+                <img src="/Product/product11.jpg">
+                <div class="productDescription">
+                    <h1>Chocolate Croissant</h1>
+                    <h3>IDR13.000</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi fuga officiis dolorum similique, mollitia consectetur at voluptas quaerat soluta magni ratione maxime fugiat dicta impedit voluptate quia perferendis minus placeat atque praesentium ipsam adipisci vero hic exercitationem! Quos possimus consequuntur aspernatur illum ratione impedit, similique, magni blanditiis adipisci id rem.</p>
+                    <input type="number" placeholder="TOTAL" min="1">
+                    <button type="submit" id="order" name="order" data-translate="order" onclick="order()">ORDER</button>
+                </div>
+            </div>
+        </div>
+        <div class="similarItems">
+            <h1 id="otherProducts" data-translate="otherProducts">Other Products</h1>
+            <div class="similarProducts">
+                <div class="product12">
+                    <div class="productImg">
+                        <img src="/Product/product12.jpg" alt="Strawberry Breakfast Danish">
+                    </div>
+                    <div class="product12Info">
+                        <div class="nameAndPrice">
+                            <span id="strawberryBreakfastDanish" data-translate="strawberryBreakfastDanish">Strawberry Breakfast Danish</span>
+                            <span>IDR11.000</span>
+                        </div>
+                        <div class="ratingAndOrder">
+                            <span>*0.0</span>
+                            <button type="submit" id="similarProduct1" class="similarProductOrder" id="similarProduct1" data-translate="similarProduct1" onclick="order()">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product8" style="margin-left: 25px;">
+                    <div class="productImg">
+                        <img src="/Product/product8.jpg" alt="Cheese Scone">
+                    </div>
+                    <div class="product8Info">
+                        <div class="nameAndPrice">
+                            <span id="cheeseScone" data-translate="cheeseScone">Cheese Scone</span>
+                            <span>IDR15.000</span>
+                        </div>
+                        <div class="ratingAndOrder">
+                            <span>*0.0</span>
+                            <button type="submit" id="product8order" class="similarProductOrder" name="product8order" data-translate="product8order" onclick="order()">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product7" style="margin-left: 25px;">
+                    <div class="productImg">
+                        <img src="/Product/product7.jpg" alt="Sweet Banana Bread">
+                    </div>
+                    <div class="product7Info">
+                        <div class="nameAndPrice">
+                            <span id="sweetBananaBread" data-translate="sweetBananaBread">Sweet Banana Bread</span>
+                            <span>IDR9.000</span>
+                        </div>
+                        <div class="ratingAndOrder">
+                            <span>*0.0</span>
+                            <button type="submit" id="product7order" class="similarProductOrder" name="product7order" data-translate="product7order" onclick="order()">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product6" style="margin-left: 25px;">
+                    <div class="productImg">
+                        <img src="/Product/product6.jpg" alt="Blueberry Turnover">
+                    </div>
+                    <div class="product6Info">
+                        <div class="nameAndPrice">
+                            <span>Blueberry Turnover</span>
+                            <span>IDR12.000</span>
+                        </div>
+                        <div class="ratingAndOrder">
+                            <span>*0.0</span>
+                            <button type="submit" id="product6order" class="similarProductOrder" name="product6order" data-translate="product6order" onclick="order()">ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
     <footer>
         <img src="/Product/bake my day logo black.png" alt="Logo">
@@ -58,5 +139,6 @@
             </div>
         </nav>    
     </footer>
+<script src="/Add to Chart/language.js"></script>
 </body>
 </html>

@@ -20,7 +20,7 @@ body {
     border-radius: 21px;
     background-color : #D1D1D1;
     height: 3rem;    
-    width: 33rem;
+    width: 34rem;
     margin-left: 90px;
     margin-top: 15px;
 }
@@ -83,8 +83,118 @@ body {
 .content {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: #161616;
-    height: 42rem;
+    height: 63rem;
+}
+.wrapper {
+    width: 70%;
+    margin-top: 25px;
+}
+.productDisplayProduct {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+    width: 18rem;
+    margin-left: 1.5rem;
+}
+.productDisplayProduct > p {
+    color: #FFFFFF;
+}
+.productDisplayProduct > p > span {
+    color: #CC7942;
+    font-weight: 500;
+}
+.productInfo > img {
+    width: 27rem;
+    height: 25.5rem;
+    margin: 1.5rem;
+}
+input::placeholder {
+    text-align: center;
+}
+.productInfo {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+.productDescription {
+    display: flex;
+    flex-direction: column;
+}
+.productDescription > h3{
+    margin: 2px;
+}
+input[type="number"] {
+    border: none;
+    font-family: poppins;
+    text-align: center;
+    height: 2rem;
+}
+#order {
+    border: none;
+    color: #FFFFFF;
+    font-family: poppins;
+    height: 2rem;
+    margin-top: 5px;
+    background-color: #CC7942;
+    text-align: center;
+}
+#order:hover {
+    background-color: #E68647;
+}
+.similarProducts {
+    display: flex;
+    flex-direction: row;
+}
+.similarItems > h1{
+    color: #FFFFFF;
+    margin-left: 1.5rem;
+}
+.similarProducts {
+    margin-left: 1.5rem;
+}
+.productImg > img {
+    border: none;
+    border-radius: 12px 12px 0 0;
+    height: 12rem;
+    width: 13.15rem;
+}
+.productImg {
+    width: 12rem;
+    height: 11rem;
+}
+.product1Info, .product2Info, .product3Info, .product4Info, .product5Info, .product6Info, .product7Info, .product8Info, .product9Info, .product10Info, .product11Info, .product12Info, .product13Info, .product14Info, .product15Info {
+    display: flex;
+    flex-direction: row;
+    width: 13.15rem;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 0 0 12px 12px;
+    border: none;
+    background-color: #CC7942;
+    margin-top: 17.5px;
+    height: 8.5rem;
+}
+.nameAndPrice > span, .ratingAndOrder > span {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 2.5px;
+}
+.similarProductOrder {
+    border: none;
+    border-radius: 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: poppins;
+    padding: 4px;
+    text-align: center;
+    width: 4rem;
+}
+.similarProductOrder:hover {
+    transform: scale(1.1);
 }
 footer {
     background-color: #CC7942;

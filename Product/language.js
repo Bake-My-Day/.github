@@ -36,6 +36,7 @@ const translations = {
     product13order: "ORDER",
     product14order: "ORDER",
     product15order: "ORDER",
+    homeFooter: "Home",
     aboutFooter: "About",
     reviewsFooter: "Reviews",
     adviceFooter: "Advice",
