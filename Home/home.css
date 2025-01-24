@@ -113,6 +113,11 @@ body {
     background-color: #FFFFFF;
     border-radius: 15px;
     color: #0C0B0B;
+    text-decoration: none;
+}
+#orderNow1:hover, #orderNow2:hover, #contactus2:hover {
+    background-color: #CC7942;
+    color: #FFFFFF;
 }
 .wrapper-2 {
     display: flex;

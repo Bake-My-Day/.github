@@ -87,21 +87,25 @@ body {
     background-color: #161616;
     height: 63rem;
 }
+#productTitle::after {
+    content: " >";
+}
 .wrapper {
     width: 70%;
     margin-top: 25px;
 }
 .productDisplayProduct {
     display: flex;
+    flex-direction: row;
     align-items: center;
     height: 2.5rem;
-    width: 18rem;
+    width: 22rem;
     margin-left: 1.5rem;
 }
 .productDisplayProduct > p {
     color: #FFFFFF;
 }
-.productDisplayProduct > p > span {
+#displayProduct {
     color: #CC7942;
     font-weight: 500;
 }
