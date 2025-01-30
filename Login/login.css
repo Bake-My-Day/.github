@@ -159,7 +159,7 @@ input[type="email"], input[type="password"] {
     padding: 15px;
 }
 input::placeholder {
-    color: white;
+    color: #FFFFFF;
 }
 .showPassword {
     display: flex;

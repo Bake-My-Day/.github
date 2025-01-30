@@ -1,231 +1,242 @@
 body {
-    font-family: poppins;
-    margin: 0;
+  font-family: poppins;
+  margin: 0;
 }
 .navbar-top {
-    display: flex;
-    flex-direction: row;
-    height: 5rem;
-    background-color: #060606;
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  background-color: #060606;
 }
 .logo {
-    width: 80px;
-    margin-left: 15px;
+  width: 80px;
+  margin-left: 15px;
 }
 .navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 21px;
-    background-color : #D1D1D1;
-    height: 2.5rem;    
-    width: 25.5rem;
-    margin-left: 60px;
-    margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 21px;
+  background-color: #d1d1d1;
+  height: 2.5rem;
+  width: 25.5rem;
+  margin-left: 60px;
+  margin-top: 15px;
 }
 .navigation > a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .navigation > a:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
-.home, .about, .product, .contactus {
-    margin: 10px;
+.home,
+.about,
+.product,
+.contactus {
+  margin: 10px;
 }
 .language {
-    margin-left: 90px;
-    margin-top: 23.5px;
+  margin-left: 90px;
+  margin-top: 23.5px;
 }
 .eng {
-    color: black;
-    background-color: white;
-    margin-left: 20px;
-    border-radius: 12px;
-    padding: 7px;
-    text-decoration: none;
+  color: black;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 12px;
+  padding: 7px;
+  text-decoration: none;
 }
 .idn {
-    color: #FFFFFF;
-    background-color: #161616;
-    margin-left: 30px;
-    border:  1px solid #FFFFFF;
-    border-radius: 12px;
-    padding: 7px;
-    text-decoration: none;
+  color: #ffffff;
+  background-color: #161616;
+  margin-left: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  padding: 7px;
+  text-decoration: none;
 }
 .idn:hover {
-    background-color: #FFFFFF;
-    color: #161616;
+  background-color: #ffffff;
+  color: #161616;
 }
 .wrapper {
-    display: flex;
-    flex-direction: row;
-    margin-left: 120px;
-    margin-top: 15px;
-} 
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+  margin-top: 15px;
+}
 .wrapper > .login-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 21px;
-    background-color : #FFFFFF;
-    color: #161616;
-    font-weight: 700;
-    height: 2.5rem;    
-    width: 10rem;
-    margin-left: 10px;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 21px;
+  background-color: #ffffff;
+  color: #161616;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 10rem;
+  margin-left: 10px;
+  text-decoration: none;
 }
 .wrapper > .signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 21px;
-    background-color : #CC7942;
-    color: #161616;
-    font-weight: 700;
-    height: 2.5rem;    
-    width: 10rem;
-    margin-left: 10px;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 21px;
+  background-color: #cc7942;
+  color: #161616;
+  font-weight: 700;
+  height: 2.5rem;
+  width: 10rem;
+  margin-left: 10px;
+  text-decoration: none;
 }
 .wrapper > .login-top:hover {
-    background-color: #CC7942;
+  background-color: #cc7942;
 }
 .content {
-    display: flex;
-    flex-direction: row;
-    background-color: #161616;
-    height: 42rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #161616;
+  height: 42rem;
 }
 .description {
-    color: #CC7942;
-    max-width: 700px;
-    margin: 0 auto;
-    margin-top: 9.5rem;
-    margin-left: 2.5rem;
+  color: #cc7942;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 9.5rem;
+  margin-left: 2.5rem;
 }
-#title, #description-1 {
-    font-size: 3rem;
-    line-height: 2rem;
+#title,
+#description-1 {
+  font-size: 3rem;
+  line-height: 2rem;
 }
 .bakery-cakes {
-    height: 13rem;
+  height: 13rem;
 }
 .img-description {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .description > p {
-    color: #CC7942;
-    margin-top: 20px;
-    line-height: 1.6;
+  color: #cc7942;
+  margin-top: 20px;
+  line-height: 1.6;
 }
 .register {
-    background-color: #060606;
-    display: flex;
-    flex-direction: column;
-    width: 20rem;
-    border-radius: 12px;
-    height: 31.5rem;
-    padding: 18px;
-    margin-top: 4rem;
-    margin-right: 7.5rem;
-    margin-bottom: 3.5rem;
+  background-color: #060606;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  border-radius: 12px;
+  height: 31.5rem;
+  padding: 18px;
+  margin-top: 4rem;
+  margin-right: 7.5rem;
+  margin-bottom: 3.5rem;
 }
 .register > h2 {
-    color: white;
-    padding: 5px;
-    margin-top: 8px;
-    text-align: center;
+  color: white;
+  padding: 5px;
+  margin-top: 8px;
+  text-align: center;
 }
-.full-name, .address, .email, .password {
-    border: none;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    color: white;
-    width: auto;
-    margin-bottom: 15px;
+.full-name,
+.address,
+.email,
+.password {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+  width: auto;
+  margin-bottom: 15px;
 }
-input[type="text"], input[type="email"], input[type="text"], input[type="password"] {
-    font-family: poppins;
-    border: solid 1px white;
-    border-radius: 7px;
-    background-color: #060606;
-    color: #FFFFFF;
-    height: 1rem;
-    padding: 15px;
+input[type="text"],
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+  font-family: poppins;
+  border: solid 1px white;
+  border-radius: 7px;
+  background-color: #060606;
+  color: #ffffff;
+  height: 1rem;
+  padding: 15px;
 }
 input::placeholder {
-    color: white;
+  color: white;
 }
 .showPassword {
-    display: flex;
-    flex-direction: row;
-    color: #FFFFFF;
-    font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+  font-size: 13px;
 }
 .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 #register {
-    border: none;
-    border-radius: 5px;
-    font-family: poppins;
-    padding: 10px;
-    width: 19.5rem;
-    background-color: white;
-    border-radius: 22px;
-    color: #0C0B0B;
+  border: none;
+  border-radius: 5px;
+  font-family: poppins;
+  padding: 10px;
+  width: 19.5rem;
+  background-color: white;
+  border-radius: 22px;
+  color: #0c0b0b;
 }
 #register:hover {
-    background-color: #CC7942;
-    color: #FFFFFF;
+  background-color: #cc7942;
+  color: #ffffff;
 }
 .signup:hover {
-    background-color: #CC7942;
+  background-color: #cc7942;
 }
 .messageDiv {
-    background-color: #CC7942;
-    color: #FFFFFF;
-    padding: 10px 10px;
-    margin: 10px;
-    border-radius: 5px;
-    font-size: 1rem;
-    opacity: 0;
-    animation: fadeOut 3s forwards;
+  background-color: #cc7942;
+  color: #ffffff;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  opacity: 0;
+  animation: fadeOut 3s forwards;
 }
 footer {
-    background-color: #CC7942;
-    height: 12rem;
-    display: flex;
-    align-items: center;
+  background-color: #cc7942;
+  height: 12rem;
+  display: flex;
+  align-items: center;
 }
-.nav-footer > a{
-    color: #161616;
-    margin: 1rem;
-    text-decoration: none;
+.nav-footer > a {
+  color: #161616;
+  margin: 1rem;
+  text-decoration: none;
 }
 .nav-footer > a:hover {
-    font-weight: 700;
+  font-weight: 700;
 }
 hr {
-    border: 1px solid black; 
-    width: 50rem;
-    margin-left: 15px;
+  border: 1px solid black;
+  width: 50rem;
+  margin-left: 15px;
 }
-.footer-bottom > a, span {
-    color: #161616;
-    font-weight: 900;
-    font-size: large;
-    margin: 1rem;
-    margin-right: 3.5rem;
+.footer-bottom > a,
+span {
+  color: #161616;
+  font-weight: 900;
+  font-size: large;
+  margin: 1rem;
+  margin-right: 3.5rem;
 }
