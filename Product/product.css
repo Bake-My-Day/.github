@@ -77,6 +77,12 @@ body {
     margin-left: 2rem;
     margin-top: 22px;
     height: 2rem;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 70px;
+    z-index: 1000;
+    background-color: #060606;
 }
 input[type="search"] {
     font-family: poppins;
@@ -191,4 +197,112 @@ hr {
     font-size: large;
     margin: 1rem;
     margin-right: 3.5rem;
+}
+@media screen and (max-width: 480px) {
+  .navbar-top {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+        position: relative;
+    }
+    .logo {
+        width: 60px;
+        margin-left: 0;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .hamburger span {
+        width: 1.8rem;
+        height: 3px;
+        background-color: #FFFFFF;
+    }
+    /* #searchBox {
+        position: static;
+        margin-top: 20px;
+    } */
+h1, p {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+    height: auto;
+    width: auto;
+}
+.firstRow, .secondRow, .thirdRow {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8, .product9, .product10, .product11, .product12, .product13, .product14, .product15 {
+    margin-right: 0;
+    padding: 1rem;
+}
+.productImg > img {
+    border: none;
+    border-radius: 12px 12px 0 0;
+    height: 12rem;
+    width: 19rem;
+}
+.product1Info, .product2Info, .product3Info, .product4Info, .product5Info, .product6Info, .product7Info, .product8Info, .product9Info, .product10Info, .product11Info, .product12Info, .product13Info, .product14Info, .product15Info {
+    display: flex;
+    flex-direction: row;
+    width: 19rem;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 0 0 12px 12px;
+    border: none;
+    background-color: #CC7942;
+    margin-top: 17px;
+    height: 7.5rem;
+}
+.nameAndPrice > span, .ratingAndOrder > span {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 2.5px;
+}
+.productImg {
+    width: 12rem;
+    height: 11rem;
+}
+    footer {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-footer i {
+        margin: 20px 0 !important;
+    }
+
+    hr {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

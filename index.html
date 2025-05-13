@@ -16,6 +16,11 @@
 <body>
     <nav class="navbar-top">
         <img class="logo" src="/Login/WhatsApp_Image_2024-12-17_at_15.39.50.png">
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <nav class="navigation" id="nav-links">
             <a id="home" class="home" data-translate="home" href="home.html">Home</a>
             <a id="about" class="about" data-translate="about" href="#">About</a>
@@ -63,6 +68,7 @@
                 <div class="button">
                     <button type="submit" id="register" name="register" data-translate="register" onclick="register()">SIGN UP</button>
                 </div>
+                <p class="already" style="text-align: center;">Already have an account? <a href="login.html">Login</a></p>
             </div>
         </form>
     </div>
@@ -92,5 +98,6 @@
     <script type="module" src="/Register/register.js"></script>
     <script src="/Register/language.js"></script>
     <script src="/Register/showPassword.js"></script>
+    <script src="/Register/navbar.js"></script>
 </body>
 </html>

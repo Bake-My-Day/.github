@@ -8,6 +8,19 @@ body {
   height: 5rem;
   background-color: #060606;
 }
+.hamburger {
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
 .logo {
   width: 80px;
   margin-left: 15px;
@@ -135,7 +148,7 @@ body {
   flex-direction: column;
   width: 20rem;
   border-radius: 12px;
-  height: 31.5rem;
+  height: 33rem;
   padding: 18px;
   margin-top: 4rem;
   margin-right: 7.5rem;
@@ -186,6 +199,14 @@ input::placeholder {
   justify-content: center;
   margin-top: 30px;
 }
+.already {
+      color: #FFFFFF;
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+    .already > a {
+      color: #CC7942;
+    }
 #register {
   border: none;
   border-radius: 5px;
@@ -239,4 +260,143 @@ span {
   font-size: large;
   margin: 1rem;
   margin-right: 3.5rem;
+}
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    .navbar-top {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 10px;
+        position: relative;
+    }
+
+    .logo {
+        width: 60px;
+        margin-left: 0;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .hamburger span {
+        width: 1.8rem;
+        height: 3px;
+        background-color: #FFFFFF;
+        transition: 0.3s;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        background-color: #060606;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .navigation.active {
+        display: flex;
+        height: auto;
+    }
+
+    .navigation a {
+        color: #FFFFFF !important;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+
+    .language,
+    .wrapper {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .description {
+        margin: 20px 0;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    #title,
+    #description-1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .img-description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bakery-cakes {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .register {
+        width: 80%;
+        margin: 20px auto;
+        padding: 15px;
+        height: 33.5rem;
+    }
+    .already {
+      color: #FFFFFF;
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+    .already > a {
+      color: #CC7942;
+    }
+    footer {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-footer i {
+        margin: 20px 0 !important;
+    }
+
+    hr {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    }
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
 }
